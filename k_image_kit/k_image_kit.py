@@ -10,6 +10,8 @@ from k_general_kit.gen_func import bye
 
 FRAMES_FORMATS = ["GIF"]
   
+""" Functions """
+
 def conv_comp(src_path, dest_fold_path="", result_name="", format="JPEG", quality=80):
     if dest_fold_path == "":
         dest_fold_path = os.path.split(src_path)
